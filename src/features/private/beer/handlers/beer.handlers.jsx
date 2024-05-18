@@ -51,6 +51,7 @@ const removeLikeHandler = async ({ id, setData }) => {
       withCredentials: true,
     });
     toast.success(data.message);
+    
     setData((prevData) => ({
       ...prevData,
       likesCount: prevData.likesCount - 1,
