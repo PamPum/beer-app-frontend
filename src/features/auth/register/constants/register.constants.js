@@ -34,7 +34,7 @@ const constants = {
     buttonLink: {
       fullWidth: true,
       href: "/login",
-      label: "Ya tienes cuenta? Inicia sesión",
+      label: "¿Ya tienes cuenta? Inicia sesión",
     },
     title: "Registro",
     description: "Crea tu cuenta",
